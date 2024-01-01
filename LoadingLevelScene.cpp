@@ -6,6 +6,8 @@
 
 #define SCENE_HEIGHT 720
 
+// Ok starting to decipher this code 2 years after it was given to me. 
+// TODO: today is time to start plumbing the depths. 
 bool LoadingLevelScene::init(
     const std::shared_ptr<cugl::AssetManager>& assets) {
   std::random_device my_random_device;
